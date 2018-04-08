@@ -5,15 +5,45 @@ html {
 
 
 body {
-background-color: azure;
-    
-    #container {
-        font-size: 30px;
-        
-    }
-    #container>div {
-        background-color: lightcoral;
-        margin-bottom:10px;
-    }
-    
+    background-color: azure;
+}
+
+#container {
+    font-size: 30px;
+
+}
+
+#container > div {
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+
+#pixel {
+    width: 400px;
+}
+
+#em {
+    width: 15em;
+}
+#ex {
+    width: 40ex;
+}
+#rem {
+    width: 10rem;
+}
+#procent {
+    width: 40%;
+}
+#vw {
+    width: 40vw;
+}
+
+#vh {
+    width: 40vh;
+}
+#vmin {
+    width: 40vmin;
+}  
+#vmax {
+    width: 40vmax;
 }
