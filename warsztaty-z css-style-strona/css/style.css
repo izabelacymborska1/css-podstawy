@@ -1,0 +1,78 @@
+/*generalne style*/
+
+body {
+    margin: 0;
+    font-family: 'Lato', 'sans-serif';
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*nawigacje*/
+
+nav#menu {
+    text-align: center;
+    background-color: #222;
+}
+
+nav#menu > ul {
+    padding: 25px;
+    margin: 0;
+}
+
+nav#menu > ul > li {
+    display: inline-block;
+    padding: inherit;
+}
+
+nav#menu > ul > li > a {
+  color: #fff;   
+}
+
+
+
+
+
+
+
+/*header*/
+header#header {
+    position: relative;
+}
+header#header >img {
+    width: 100%;
+}
+header#header> h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    
+}
+    
+/*section-o-mnie*/
+section {
+    text-align: center;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+footer#contact {
+    text-align: center;
+    
+}
